@@ -14,7 +14,7 @@ body {
   background-color: #dbd9db;
   width: 100%;
   font-size: 1.5em;
-  padding: 50px 50px;
+  padding: 50px 20px;
   text-align: center;
 }
 .Name_Baku, .Name_Rome, .Name_Madrid, .Name_London  {
@@ -26,7 +26,7 @@ body {
 .preview_baku, .preview_london, .preview_madrid, .preview_rome {
    position: relative;
    text-align: left;
-   margin: 5px;
+   margin-bottom: 5px;
   }
 .preview_baku {
    margin-top: 45px;
@@ -45,13 +45,6 @@ body {
    height: 48%;
    float: right;
  }
- img {
-   max-width: 100%;
-   min-width: 355px;
-   min-height: 246px;
-   max-height: 100%;
-  }
- }
 @media screen and (min-width: 991px){
  .preview_baku, .preview_london, .preview_madrid, .preview_rome  {
    margin: 0.5%;
@@ -59,11 +52,5 @@ body {
    height: 24%;
    float: left;
    margin-top: 50px;
- }
-  img {
-   max-width: 355px;
-   min-width: 355px;
-   min-height: 246px;
-   max-height: 100%;
    }
   }
